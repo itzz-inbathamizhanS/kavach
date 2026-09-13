@@ -24,16 +24,16 @@ Kavach is an advanced Threat Intelligence and Security Posture Management platfo
 ## Screenshots
 
 ### 1. The Global Defense Dashboard
-![Kavach Dashboard](img/Dashboard.png)
+![Kavach Dashboard](Img/Dashboard.png)
 
 ### 2. Threat Intel Lookup & IP Reputation
-![Threat Lookup](img/Threat_Lookup.png)
+![Threat Lookup](Img/Threat_Lookup.png)
 
 ### 3. Interactive Approvals Workflow
-![Approvals](img/Approvals.png)
+![Approvals](Img/Approvals.png)
 
 ### 4. Backend Source Architecture
-![Source Code](img/VS.png)
+![Source Code](Img/VS.png)
 
 ## Getting Started
 
