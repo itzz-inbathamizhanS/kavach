@@ -21,17 +21,31 @@ Kavach is an advanced Threat Intelligence and Security Posture Management platfo
 - `kavach-frontend/`: Contains the React-based user interface.
 - `docs/`: Comprehensive project documentation.
 
+## Screenshots
+
+### 1. The Global Defense Dashboard
+![Kavach Dashboard](img/Dashboard.png)
+
+### 2. Threat Intel Lookup & IP Reputation
+![Threat Lookup](img/Threat_Lookup.png)
+
+### 3. Interactive Approvals Workflow
+![Approvals](img/Approvals.png)
+
+### 4. Backend Source Architecture
+![Source Code](img/VS.png)
+
 ## Getting Started
 
 ### Prerequisites
-- Java Development Kit (JDK) 17 or higher
+- Java Development Kit (JDK) 21
 - Node.js 18 or higher
 - MongoDB instance (local or remote)
 - Maven
 
 ### Backend Setup
 1. Navigate to the backend directory: `cd kavach-backend`
-2. Configure the MongoDB connection in `src/main/resources/application.yml`
+2. Configure the MongoDB connection and JWT secret in `src/main/resources/application.yml` via environment variables.
 3. Start the application: `mvn spring-boot:run`
 The backend will run on `http://localhost:8080`.
 
@@ -42,6 +56,10 @@ The backend will run on `http://localhost:8080`.
 The frontend will run on `http://localhost:5173`.
 
 ## Documentation
-For further details on the system design and project scope, please refer to the documentation in the `docs` directory:
-- [Project Overview](docs/PROJECT_OVERVIEW.md)
-- [Architecture](docs/ARCHITECTURE.md)
+For further details on the system design, how it works under the hood, and the business logic, please refer to the comprehensive documentation in the `docs/` directory:
+
+- 📘 **[Non-Technical Overview](docs/NON_TECHNICAL_OVERVIEW.md)**: What Kavach is, who uses it, and the business problems it solves.
+- ⚙️ **[Technical Implementation (Deep Dive)](docs/TECHNICAL_IMPLEMENTATION.md)**: A complete technical breakdown of the React frontend, Spring Boot backend, and how they connect.
+- 🏗️ **[Architecture](docs/ARCHITECTURE.md)**: The system design and infrastructure layout.
+- 🚀 **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)**: Instructions on how this project is containerized with Docker and deployed to Render and Vercel.
+- 🎓 **[Developer Notes & Interview Guide](docs/INTERVIEW_GUIDE.md)**: Details on the Threat Score algorithms and how this project demonstrates my certifications.
