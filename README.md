@@ -1,5 +1,8 @@
 # Kavach
 
+**🔴 Live Application:** [https://kavach-frontend-xi.vercel.app](https://kavach-frontend-xi.vercel.app)
+*(Demo Credentials: analyst.lead@defense.internal / kavach2025)*
+
 ## Overview
 Kavach is an advanced Threat Intelligence and Security Posture Management platform designed to ingest, analyze, and mitigate cyber threats in real-time. By leveraging automated threat intelligence feeds, robust indicator tracking, and immutable ledger capabilities, Kavach provides security operations centers (SOC) and incident response teams with a comprehensive suite of tools for proactive defense.
 
@@ -58,8 +61,8 @@ The frontend will run on `http://localhost:5173`.
 ## Documentation
 For further details on the system design, how it works under the hood, and the business logic, please refer to the comprehensive documentation in the `docs/` directory:
 
-- 📘 **[Non-Technical Overview](docs/NON_TECHNICAL_OVERVIEW.md)**: What Kavach is, who uses it, and the business problems it solves.
-- ⚙️ **[Technical Implementation (Deep Dive)](docs/TECHNICAL_IMPLEMENTATION.md)**: A complete technical breakdown of the React frontend, Spring Boot backend, and how they connect.
-- 🏗️ **[Architecture](docs/ARCHITECTURE.md)**: The system design and infrastructure layout.
-- 🚀 **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)**: Instructions on how this project is containerized with Docker and deployed to Render and Vercel.
-- 🎓 **[Developer Notes & Interview Guide](docs/INTERVIEW_GUIDE.md)**: Details on the Threat Score algorithms and how this project demonstrates my certifications.
+- **[Non-Technical Overview](docs/NON_TECHNICAL_OVERVIEW.md)**: What Kavach is, who uses it, and the business problems it solves.
+- **[Technical Implementation (Deep Dive)](docs/TECHNICAL_IMPLEMENTATION.md)**: A complete technical breakdown of the React frontend, Spring Boot backend, and how they connect.
+- **[Architecture](docs/ARCHITECTURE.md)**: The system design and infrastructure layout.
+- **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)**: Instructions on how this project is containerized with Docker and deployed to Render and Vercel.
+- **[Developer Notes & Interview Guide](docs/INTERVIEW_GUIDE.md)**: Details on the Threat Score algorithms and how this project demonstrates my certifications.
