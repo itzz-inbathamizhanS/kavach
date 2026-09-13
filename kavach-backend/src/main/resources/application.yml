@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: kavach
+jwt:
+  # 64-character hex secret for HS512 (this is a demo secret, change in production)
+  secret: ${JWT_SECRET}
+  expiration-ms: 86400000 # 24 hours
+
+server:
+  port: 8080
