@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: kavach-api
+    env: java
+    plan: free
+    rootDir: kavach-backend
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/kavach-backend-1.0.0.jar
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
