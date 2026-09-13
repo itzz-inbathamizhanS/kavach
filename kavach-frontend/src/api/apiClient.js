@@ -1,4 +1,4 @@
-export const API_BASE = '/api';
+export const API_BASE = 'https://kavach-api-latest.onrender.com/api';
 
 function getAuthHeader() {
   const token = localStorage.getItem('kavach_token');
